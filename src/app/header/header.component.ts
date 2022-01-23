@@ -2,12 +2,12 @@ import { Component } from "@angular/core";
 
 
 @Component({
-    selector: 'fm-topnavbar',
-    templateUrl: 'topnavbar.component.html',
-    styleUrls: ['topnavbar.component.css']
+    selector: 'fm-header',
+    templateUrl: 'header.component.html',
+    styleUrls: ['header.component.css']
 })
 
-export class TopNavBarComponent
+export class HeaderComponent
 {
     
 }
