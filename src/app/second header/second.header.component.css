@@ -1,5 +1,6 @@
 a.navbar-link.active
 {
-    border-bottom: red;
-    border-width: thick;
+    border-bottom-style: solid;
+    border-color: red;
+    border-width: 6px;
 }
