@@ -3,10 +3,12 @@
     outline-style: solid;
     outline-width: 1px;
     outline-color: black;
+    font-weight: bold;
 }
 
 .fm:hover
 {
     background-color: red;
     color: white;
+    font-weight: bold;
 }
