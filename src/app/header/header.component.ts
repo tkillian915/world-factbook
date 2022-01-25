@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 
 
 @Component({
-    selector: 'fm-header',
+    selector: 'wf-header',
     templateUrl: 'header.component.html',
     styleUrls: ['header.component.css']
 })
