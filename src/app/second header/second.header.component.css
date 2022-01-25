@@ -1,15 +1,5 @@
-.wf
+a.navbar-link.active
 {
-    outline-style: solid;
-    outline-width: 1px;
-    outline-color: black;
-    font-weight: bold;
-    margin-left: 0px;
-}
-
-.wf:hover
-{
-    background-color: red;
-    color: white;
-    font-weight: bold;
+    border-bottom: red;
+    border-width: thick;
 }
