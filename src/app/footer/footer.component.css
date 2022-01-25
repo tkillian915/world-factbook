@@ -14,3 +14,9 @@
     border-color: red;
     border-bottom-width: 5px;
 }
+
+.nav-item:hover
+{
+    background-color: red;
+    text-decoration: none;
+}
