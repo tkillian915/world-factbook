@@ -15,6 +15,13 @@
     border-bottom-width: 5px;
 }
 
+.nav-item
+{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 .nav-item:hover
 {
     background-color: red;
