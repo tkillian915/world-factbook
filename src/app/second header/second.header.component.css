@@ -4,3 +4,9 @@ a.nav-link.active
     border-color: red;
     border-width: 5px;
 }
+
+.wf-nav
+{
+    width: 60px;
+}
+
