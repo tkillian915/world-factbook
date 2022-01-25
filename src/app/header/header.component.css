@@ -1,6 +1,12 @@
 .fm
 {
     outline-style: solid;
-    outline-width: 2px;
+    outline-width: 1px;
     outline-color: black;
+}
+
+.fm:hover
+{
+    background-color: red;
+    color: white;
 }
