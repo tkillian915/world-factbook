@@ -1,0 +1,11 @@
+<div class = "container position-absolute text-white fw-bold">
+        <button type = "button" class = "btn-btn-dark bg-dark text-white top-15 start-0">THE WORLD FACTBOOK</button>
+        
+        <button type = "button" class = "btn-btn-dark  bg-dark text-white fw-bold me-md-2 top-15 end-0" >Countries</button>
+    
+        <button type = "button" class = "btn-btn-dark bg-dark text-white fw-bold me-md-2 top-15 end-0">Maps</button>
+        
+        <button type = "button" class = "btn-btn-dark bg-dark text-white fw-bold me-md-2 top-15 end-0">References</button>
+        
+        <button type = "button" class = "btn-btn-dark bg-dark  text-white fw-bold me-md-2 top-15 end-0">About</button>
+    </div>
