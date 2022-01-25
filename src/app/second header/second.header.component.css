@@ -2,5 +2,5 @@ a.nav-link.active
 {
     border-bottom-style: solid;
     border-color: red;
-    border-width: 6px;
+    border-width: 5px;
 }
