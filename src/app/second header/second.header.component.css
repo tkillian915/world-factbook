@@ -1,3 +1,9 @@
+.navbar
+{
+    background-color: black;
+    color: white;
+}
+
 a.nav-link.active
 {
     border-bottom-style: solid;
@@ -5,5 +11,18 @@ a.nav-link.active
     border-width: 5px;
 }
 
+.nav-item:hover
+{
+    border-bottom-style: solid;
+    border-color: red;
+    border-width: 5px; 
+}
 
+.nav-option
+{
+    margin-right: 1.875rem;
+    margin-bottom: 0;
+    justify-content: center;
+    position: relative;
+}
 
