@@ -1,6 +1,7 @@
 .bi:hover
 {
     fill: red;
+    padding-bottom: 3px;
 }
 
 .container

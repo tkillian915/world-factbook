@@ -1,14 +1,17 @@
-.navbar
+.nav-link
 {
     background-color: black;
     color: white;
 }
 
-a.nav-link.active
+.navbar
 {
-    border-bottom-style: solid;
-    border-color: red;
-    border-width: 5px;
+    background-color: black;
+}
+
+.navbar-nav
+{
+    font-weight: 900;
 }
 
 .nav-item:hover
@@ -24,5 +27,12 @@ a.nav-link.active
     margin-bottom: 0;
     justify-content: center;
     position: relative;
+}
+
+.nav-option:hover
+{
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
 }
 
