@@ -1,34 +1,16 @@
 .card
 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 .card-title
 {
     font-family: "Sectra";
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .card-text
 {
-    
-}
-
-.wf-button
-{
-    background-color: black;
-    color: white;
-    outline: red;
-    text-align: center;
-}
-
-.wf-button:hover
-{
-    background-color: black;
-    color: white;
-    outline: red;
-    border-bottom-style: solid;
-    border-color: red;
-    border-bottom-width: 5px;
+    font-size: 16px;
 }
