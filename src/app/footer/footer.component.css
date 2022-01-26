@@ -1,3 +1,7 @@
+.site-bg
+{
+    background-color: black;
+}
 .bi:hover
 {
     fill: red;

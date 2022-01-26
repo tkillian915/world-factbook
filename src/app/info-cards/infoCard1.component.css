@@ -1,0 +1,11 @@
+.card
+{
+    background-color: black;
+    color: white;
+}
+.card-title
+{
+    font-family: "GT American Extended";
+    font-weight: bold;
+    color: white;
+}
