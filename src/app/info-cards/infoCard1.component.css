@@ -2,9 +2,12 @@
 {
     background-color: black;
     color: white;
+    height: 100%;
+    border-width: 0px;
 }
 .card-title
 {
+    margin-left: 20px;
     font-family: "Sectra";
     font-weight: bold;
     color: white;
@@ -12,7 +15,13 @@
 
 .card-text
 {
+    margin-left: 20px;
     font-size: 16px;
+}
+
+.img-fluid
+{
+    height: 100%;
 }
 
 
@@ -22,6 +31,8 @@
     color: white;
     outline: red;
     text-align: center;
+    position:absolute;
+    margin-left: 35px;
 }
 
 .wf-button:hover

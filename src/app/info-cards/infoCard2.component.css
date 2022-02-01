@@ -2,6 +2,8 @@
 {
     background-color: white;
     color: black;
+    border-width: 2px;
+    border-color: black;
 }
 .card-title
 {
