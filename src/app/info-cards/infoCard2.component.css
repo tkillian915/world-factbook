@@ -7,6 +7,11 @@
     margin-left: 0px;
     margin-right: 0px;
 }
+
+.card-body
+{
+    vertical-align: middle;
+}
 .card-title
 {
     font-family: "Sectra";
