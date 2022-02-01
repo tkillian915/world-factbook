@@ -52,6 +52,14 @@
     text-decoration: none;
 }
 
+.search-bar
+{
+    height: 60px;
+    width: 270px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
 .search-bar:hover
 {
     border-color: red;
@@ -63,14 +71,6 @@
 {
     border-color: red;
     border-left-color: palevioletred;
-}
-
-.search-bar
-{
-    height: 60px;
-    width: 270px;
-    margin-left: 20px;
-    margin-right: 0px;
 }
 
 .search-button
