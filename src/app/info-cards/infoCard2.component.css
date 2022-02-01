@@ -17,6 +17,7 @@
     font-family: "Sectra";
     font-weight: bold;
     color: black;
+    margin-top: 50px;
     margin-left: 20px;
 }
 
@@ -34,6 +35,9 @@
 
 .nav-link
 {
+    padding: 0px;
+    text-align: center;
+    width: 195px;
     margin-left: 20px;
     color: black;
     font-weight: bold;
