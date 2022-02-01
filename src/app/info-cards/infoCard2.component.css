@@ -4,15 +4,69 @@
     color: black;
     border-width: 2px;
     border-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .card-title
 {
     font-family: "Sectra";
     font-weight: bold;
     color: black;
+    margin-left: 20px;
 }
 
 .card-text
 {
     font-size: 16px;
+    margin-left: 20px;
+}
+
+.card-subtext
+{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.nav-link
+{
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.nav-link:hover
+{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+.search-bar:hover
+{
+    border-color: red;
+    border-left-width: thick;
+    border-right: none;
+}
+
+.search-bar:hover + .search-button
+{
+    border-color: red;
+    border-left-color: palevioletred;
+}
+
+.search-bar
+{
+    height: 60px;
+    width: 270px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.search-button
+{
+    background-color: white;
+    height: 60px;
+    width: 60px;
 }
