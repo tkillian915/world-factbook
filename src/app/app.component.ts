@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'world-factbook';
+  /*/title = 'world-factbook';
   regions: [] = [];
 
   constructor()
@@ -16,4 +16,5 @@ export class AppComponent {
       this.regions.push(location);
     }
   }
+  /*/
 }
