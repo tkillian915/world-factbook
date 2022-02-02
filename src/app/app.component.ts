@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'world-factbook';
+  regions: [] = [];
+
+  constructor()
+  {
+    for (var location of locations_list)
+    {
+      this.regions.push(location);
+    }
+  }
 }

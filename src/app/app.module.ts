@@ -4,6 +4,7 @@ import { HeaderComponent } from 'src/app/header/header.component';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footercomponent';
+import { GeoCardComponent } from './geo-cards/geoCard.component';
 import { InfoCard1Component } from './info-cards/infoCard1.component';
 import { InfoCard2Component } from './info-cards/infoCard2.component';
 import { SecondHeaderComponent } from './second header/second.header.component';
@@ -15,7 +16,8 @@ import { SecondHeaderComponent } from './second header/second.header.component';
     SecondHeaderComponent,
     FooterComponent,
     InfoCard1Component,
-    InfoCard2Component
+    InfoCard2Component,
+    GeoCardComponent
   ],
   imports: [
     BrowserModule

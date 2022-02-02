@@ -7,7 +7,6 @@ import { Component } from "@angular/core";
     styleUrls: ['infoCard1.component.css']
 })
 
-export class InfoCard1Component
-{
+export class InfoCard1Component {
     
 }
