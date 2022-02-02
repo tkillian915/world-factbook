@@ -15,6 +15,7 @@
 .card-title
 {
     font-family: "Sectra";
+    font-size: 36px;
     font-weight: bold;
     color: black;
     margin-top: 50px;
@@ -25,12 +26,18 @@
 {
     font-size: 16px;
     margin-left: 20px;
+    margin-bottom: 15px;
 }
 
-.card-subtext
+.regions-list
 {
-    font-size: 12px;
-    margin-left: 20px;
+    border-left-color: black;
+    border-left-width: medium;
+}
+
+.img-fluid
+{
+    height: 100%;
 }
 
 .nav-link

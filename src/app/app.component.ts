@@ -6,15 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  /*/title = 'world-factbook';
-  regions: [] = [];
-
-  constructor()
-  {
-    for (var location of locations_list)
-    {
-      this.regions.push(location);
-    }
-  }
-  /*/
+  title = 'world-factbook';
+ 
 }
