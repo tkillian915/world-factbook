@@ -9,12 +9,14 @@ import { Component } from "@angular/core";
 
 export class GeoCardComponent
 {
-    /*/img: string;
+    img: string;
     title: string;
+    location: string;
 
-    constructor() {
-        this.img = "image for regions";
-        this.title = "Regions";
+    constructor()
+    {
+        this.img = "";
+        this.title = "TITLE";
+        this.location = "LOCATION";
     }
-    /*/
 }
