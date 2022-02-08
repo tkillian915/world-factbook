@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 
 @Component({
@@ -9,5 +9,14 @@ import { Component } from "@angular/core";
 
 export class InfoCard1Component 
 {
-    
+    @Input() img: string;
+    @Input() title: string;
+    @Input() content: string;
+
+    constructor()
+    {
+        this.img = "";
+        this.title = "TITLE";
+        this.content = "FILLER TEXT";
+    } 
 }

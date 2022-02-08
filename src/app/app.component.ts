@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { geoCard_list } from './geo-cards/geoCard_list';
 import { geoCardModel } from './geo-cards/geoCard_list.model';
-import { locations_list } from './geo-cards/locations_list';
-import { locationsListModel } from './geo-cards/locations_list.model';
+import { infoCard_list } from './info-cards/infoCard_list';
+import { infoCardModel } from './info-cards/infoCard_list.model';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ import { locationsListModel } from './geo-cards/locations_list.model';
 export class AppComponent {
   title = 'world-factbook';
   geoCards: geoCardModel [] = [];
-  locations: locationsListModel [] = [];
+  infoCards: infoCardModel [] = [];
 
   constructor ()
   {
@@ -22,10 +22,10 @@ export class AppComponent {
       this.geoCards.push(geoCard);
     }
 
-    for (var location of locations_list)
+    for (var infoCard of infoCard_list)
     {
-      console.log(location);
-      this.locations.push(location);
+      console.log(infoCard);
+      this.infoCards.push(infoCard);
     }
   }
 }
