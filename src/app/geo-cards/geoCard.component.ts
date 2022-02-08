@@ -10,7 +10,7 @@ import { Component, Input } from "@angular/core";
 export class GeoCardComponent
 {
     @Input() img: string;
-    title: string;
+    @Input() title: string;
     location: string;
 
     constructor()
