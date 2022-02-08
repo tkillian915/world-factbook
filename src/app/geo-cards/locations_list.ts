@@ -1,14 +1,45 @@
 export const locations_list = 
 [
-    "World",
-    "Africa",
-    "Australia and Oceana",
-    "Central America",
-    "Central Asia",
-    "East and Southeast Asia",
-    "Europe",
-    "Middle East",
-    "North America",
-    "South American",
-    "South Asia"
+    {
+        location: "World"
+    },
+    
+    {
+        location: "Africa"
+    },
+
+    {
+        location: "Australia and Oceania"
+    },
+
+    {
+        location: "World"
+    },
+
+    {
+        location: "World"
+    },
+
+    {
+        location: "World"
+    },
+    {
+        location: "World"
+    },
+
+    {
+        location: "World"
+    },
+
+    {
+        location: "World"
+    },
+
+    {
+        location: "World"
+    },
+
+    {
+        location: "World"
+    },
 ];
