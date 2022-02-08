@@ -11,7 +11,7 @@ export class GeoCardComponent
 {
     @Input() img: string;
     @Input() title: string;
-    location: string;
+    @Input() location: string;
 
     constructor()
     {
