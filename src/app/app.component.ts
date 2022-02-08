@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { geoCardModel } from './geo-cards/geoCard_list.model';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'world-factbook';
- 
+  geoCards: geoCardModel [] = [];
 }
