@@ -11,12 +11,10 @@ export class GeoCardComponent
 {
     @Input() img: string;
     @Input() title: string;
-    @Input() location: string;
 
     constructor()
     {
         this.img = "";
         this.title = "TITLE";
-        this.location = "LOCATION";
     }
 }
