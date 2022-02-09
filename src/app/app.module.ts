@@ -8,7 +8,6 @@ import { GeoCardComponent } from './geo-cards/geoCard.component';
 import { InfoCard1Component } from './info-cards/infoCard1.component';
 import { InfoCard2Component } from './info-cards/infoCard2.component';
 import { SecondHeaderComponent } from './second header/second.header.component';
-import { ApappRoutingModule } from './apapp-routing.module';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
