@@ -18,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     InfoCard1Component,
     InfoCard2Component,
-    GeoCardComponent
+    GeoCardComponent,
+    MapsComponent
   ],
   imports: [
     BrowserModule,

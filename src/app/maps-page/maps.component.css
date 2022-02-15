@@ -1,0 +1,18 @@
+.wf-button
+{
+    height: 42px;
+    width: 161px;
+    color: black;
+    background-color: white;
+    outline: black;
+    outline-width: thin;
+}
+
+.wf-button:hover
+{
+    color: black;
+    outline: red;
+    border-bottom-style: solid;
+    border-color: red;
+    border-bottom-width: 5px;
+}
