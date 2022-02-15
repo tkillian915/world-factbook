@@ -1,0 +1,92 @@
+.card
+{
+    height: 500px;
+    background-color: white;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row
+{
+    border-left-style: solid;
+    border-left-width: thin;
+}
+
+.heading
+{
+    background-color: black;
+    height: 354px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.card-body
+{
+    vertical-align: middle;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.sub-title
+{
+    margin-left: 33%;
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+
+}
+
+.page-title
+{
+    position: relative;
+    margin-left: 33%;
+    font-size: 50px;
+    font-family: "Sectra";
+    font-weight: bold;
+    color: white;
+}
+
+.card-title
+{
+    vertical-align: middle;
+    font-family: "Sectra";
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.card-text
+{
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.card-subtext
+{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+
+.wf-button
+{
+    height: 42px;
+    width: 145px;
+    color: black;
+    background-color: white;
+    outline: black;
+    outline-width: thin;
+}
+
+.wf-button:hover
+{
+    color: black;
+    outline: red;
+    border-bottom-style: solid;
+    border-color: red;
+    border-bottom-width: 5px;
+}

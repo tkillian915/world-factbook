@@ -12,6 +12,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { MapsComponent } from './maps-page/maps.component';
 import { AfricaComponent } from './africa-page/africa.countries.component';
 import { ReferencesComponent } from './references/references.component';
+import { AboutComponent } from './about-page/about.component';
+import { WorldPageComponent } from './world-page/world-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ReferencesComponent } from './references/references.component';
     GeoCardComponent,
     MapsComponent,
     AfricaComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    AboutComponent,
+    WorldPageComponent
   ],
   imports: [
     BrowserModule,
