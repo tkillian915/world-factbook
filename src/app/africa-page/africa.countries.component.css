@@ -8,6 +8,39 @@
     padding-bottom: 3px;
 }
 
+.heading
+{
+    background-color: black;
+    height: 354px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.sub-title
+{
+    margin-left: 33%;
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+
+}
+
+.card-title
+{
+    position: relative;
+    margin-left: 33%;
+    font-size: 50px;
+    font-family: "Sectra";
+    font-weight: bold;
+    color: white;
+}
+
+.country-list
+{
+    color: black;
+    font-weight: bold;
+}
+
 .container
 {
     background-color: black;

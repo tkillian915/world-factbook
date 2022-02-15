@@ -11,6 +11,7 @@ import { SecondHeaderComponent } from './second header/second.header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MapsComponent } from './maps-page/maps.component';
 import { AfricaComponent } from './africa-page/africa.countries.component';
+import { ReferencesComponent } from './references/references.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AfricaComponent } from './africa-page/africa.countries.component';
     InfoCard2Component,
     GeoCardComponent,
     MapsComponent,
-    AfricaComponent
+    AfricaComponent,
+    ReferencesComponent
   ],
   imports: [
     BrowserModule,

@@ -16,10 +16,5 @@ export const geoCard_list =
     {
         img: "assets/wfb-feature-oceans.jpg",
         title: "Oceans"
-    },
-
-    {
-        img: "assets/Factbook-Glyph.PNG",
-        title: "Mock Card"
     }
 ];
