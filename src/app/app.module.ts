@@ -14,6 +14,7 @@ import { AfricaComponent } from './africa-page/africa.countries.component';
 import { ReferencesComponent } from './references/references.component';
 import { AboutComponent } from './about-page/about.component';
 import { WorldPageComponent } from './world-page/world-page.component';
+import { HomeLayoutComponent } from './home-layout.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { WorldPageComponent } from './world-page/world-page.component';
     AfricaComponent,
     ReferencesComponent,
     AboutComponent,
-    WorldPageComponent
+    WorldPageComponent,
+    HomeLayoutComponent
   ],
   imports: [
     BrowserModule,
