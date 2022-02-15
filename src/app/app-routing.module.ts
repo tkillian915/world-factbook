@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { MapsLayoutComponent } from './maps-page/maps.component';
+import { MapsComponent } from './maps-page/maps.component';
 
 const routes:Routes = 
 [

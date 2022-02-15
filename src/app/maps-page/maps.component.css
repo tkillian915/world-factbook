@@ -1,7 +1,43 @@
+.card
+{
+    background-color: white;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.card-body
+{
+    vertical-align: middle;
+}
+.card-title
+{
+    font-family: "Sectra";
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.card-text
+{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.card-subtext
+{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
 .wf-button
 {
     height: 42px;
-    width: 161px;
+    width: 145px;
+    margin-left: 35px;
     color: black;
     background-color: white;
     outline: black;

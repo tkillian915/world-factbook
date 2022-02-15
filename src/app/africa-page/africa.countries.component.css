@@ -1,0 +1,45 @@
+.site-bg
+{
+    background-color: white;
+}
+.bi:hover
+{
+    fill: red;
+    padding-bottom: 3px;
+}
+
+.container
+{
+    background-color: black;
+}
+
+.wf-button
+{
+    background-color: black;
+    color: white;
+    outline: red;
+}
+
+.wf-button:hover
+{
+    background-color: black;
+    color: white;
+    outline: red;
+    border-bottom-style: solid;
+    border-color: red;
+    border-bottom-width: 5px;
+}
+
+.nav-item
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.nav-item:hover
+{
+    background-color: red;
+    text-decoration: none;
+}

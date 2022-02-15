@@ -9,6 +9,8 @@ import { InfoCard1Component } from './info-cards/infoCard1.component';
 import { InfoCard2Component } from './info-cards/infoCard2.component';
 import { SecondHeaderComponent } from './second header/second.header.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MapsComponent } from './maps-page/maps.component';
+import { AfricaComponent } from './africa-page/africa.countries.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { AppRoutingModule } from './app-routing.module';
     InfoCard1Component,
     InfoCard2Component,
     GeoCardComponent,
-    MapsComponent
+    MapsComponent,
+    AfricaComponent
   ],
   imports: [
     BrowserModule,
