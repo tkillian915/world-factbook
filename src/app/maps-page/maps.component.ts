@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 import { mapCard_list } from "./mapCard_list";
 import { MapCardModel } from "./mapCard_list.model";
 
@@ -11,6 +11,9 @@ import { MapCardModel } from "./mapCard_list.model";
 
 export class MapsComponent
 {
+    @Input() img: string;
+    @Input() title: string;
+    @Input() text: string;
 
     mapCards: MapCardModel [] = [];
 
