@@ -1,13 +1,5 @@
 export const mapCard_list =
-[
-    /*/
-        My website only has two components of this
-        type and it was only to satisfy the
-        goals of the lab that I made a mock third item
-        in this list for a component that doesn't
-        actually exist on the orignal site
-    /*/
-    
+[   
     {
         img: "",
         title: "CIA Maps",

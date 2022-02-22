@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { mapCard_list } from "./mapCard_list";
+import { MapCardModel } from "./mapCard_list.model";
 
 
 @Component({
@@ -10,14 +12,14 @@ import { Component } from "@angular/core";
 export class MapsComponent
 {
 
-    geoCards: MapsCardModel [] = [];
+    mapCards: MapCardModel [] = [];
 
     constructor()
     {
     for (var mapCard of mapCard_list)
     {
       console.log(mapCard);
-      this.geoCards.push(mapCard);
+      this.mapCards.push(mapCard);
     }
 }
 }
