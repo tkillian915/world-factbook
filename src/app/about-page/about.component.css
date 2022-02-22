@@ -91,6 +91,13 @@
     border-bottom-width: 5px;
 }
 
+.glyph
+{
+    max-height: 225px;
+    max-width: 225px;
+    vertical-align: middle;
+}
+
 .learn-more
 {
     height: 503px;
