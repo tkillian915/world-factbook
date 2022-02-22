@@ -3,6 +3,8 @@ import { geoCardModel } from "./geo-cards/geoCard_list.model";
 import { infoCardModel } from "./info-cards/infoCard_list.model";
 import { geoCard_list } from "./geo-cards/geoCard_list";
 import { infoCard_list } from "./info-cards/infoCard_list";
+import { mapCard_list } from "./maps-page/mapCard_list";
+import { MapCardModel } from "./maps-page/mapCard_list.model";
 
 
 @Component({
@@ -16,6 +18,7 @@ export class HomeLayoutComponent
     title = 'world-factbook';
   geoCards: geoCardModel [] = [];
   infoCards: infoCardModel [] = [];
+  mapCards: MapCardModel[] = [];
 
   constructor ()
   {
@@ -29,6 +32,12 @@ export class HomeLayoutComponent
     {
       console.log(infoCard);
       this.infoCards.push(infoCard);
+    }
+
+    for (var mapCard of mapCard_list)
+    {
+      console.log(mapCard);
+      this.mapCards.push(mapCard);
     }
   }
 }
