@@ -9,20 +9,16 @@ import { MapCardModel } from "./mapCard_list.model";
     styleUrls: ['maps.component.css']
 })
 
-export class MapsComponent
-{
+export class MapsComponent {
     @Input() img: string;
     @Input() title: string;
     @Input() text: string;
 
-    mapCards: MapCardModel [] = [];
-
-    constructor()
+    constructor() 
     {
-    for (var mapCard of mapCard_list)
-    {
-      console.log(mapCard);
-      this.mapCards.push(mapCard);
+        this.img = "";
+        this.title = "TITLE";
+        this.text = "Body text";
     }
-}
+
 }
