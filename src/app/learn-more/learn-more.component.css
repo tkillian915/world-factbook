@@ -1,3 +1,9 @@
+.row
+{
+    height: 575px;
+    background-color: #EFEFF3;
+}
+
 .container
 {
     max-width: 287px;
