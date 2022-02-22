@@ -16,6 +16,7 @@ import { AboutComponent } from './about-page/about.component';
 import { WorldPageComponent } from './world-page/world-page.component';
 import { HomeLayoutComponent } from './home-layout.component';
 import { MapsLayoutComponent } from './maps-layout.component';
+import { LearnMoreComponent } from './learn-more/learn-more.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MapsLayoutComponent } from './maps-layout.component';
     AboutComponent,
     WorldPageComponent,
     HomeLayoutComponent,
-    MapsLayoutComponent
+    MapsLayoutComponent,
+    LearnMoreComponent
   ],
   imports: [
     BrowserModule,
