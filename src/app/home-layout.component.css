@@ -6,6 +6,7 @@
 
 .container
 {
+    max-width: 287px;
     vertical-align: middle;
     padding-left: 15px;
     padding-top: 120px;
