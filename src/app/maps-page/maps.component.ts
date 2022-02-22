@@ -9,7 +9,8 @@ import { MapCardModel } from "./mapCard_list.model";
     styleUrls: ['maps.component.css']
 })
 
-export class MapsComponent {
+export class MapsComponent 
+{
     @Input() img: string;
     @Input() title: string;
     @Input() text: string;

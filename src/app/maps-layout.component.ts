@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { mapCard_list } from "./mapCard_list";
-import { MapCardModel } from "./mapCard_list.model";
+import { mapCard_list } from "./maps-page/mapCard_list";
+import { MapCardModel } from "./maps-page/mapCard_list.model";
 
 
 @Component({
