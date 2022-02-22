@@ -9,5 +9,15 @@ import { Component } from "@angular/core";
 
 export class MapsComponent
 {
-    
+
+    geoCards: MapsCardModel [] = [];
+
+    constructor()
+    {
+    for (var mapCard of mapCard_list)
+    {
+      console.log(mapCard);
+      this.geoCards.push(mapCard);
+    }
+}
 }
