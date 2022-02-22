@@ -1,6 +1,4 @@
 import { Component, Input } from "@angular/core";
-import { mapCard_list } from "./mapCard_list";
-import { MapCardModel } from "./mapCard_list.model";
 
 
 @Component({
@@ -18,7 +16,7 @@ export class MapsComponent
     constructor() 
     {
         this.img = "";
-        this.title = "TITLE";
+        this.title = "Card Title";
         this.text = "Body text";
     }
 

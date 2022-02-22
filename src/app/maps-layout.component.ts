@@ -1,3 +1,4 @@
+import { expressionType } from "@angular/compiler/src/output/output_ast";
 import { Component } from "@angular/core";
 import { mapCard_list } from "./maps-page/mapCard_list";
 import { MapCardModel } from "./maps-page/mapCard_list.model";
