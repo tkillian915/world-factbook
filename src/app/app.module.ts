@@ -15,7 +15,7 @@ import { ReferencesComponent } from './references/references.component';
 import { AboutComponent } from './about-page/about.component';
 import { WorldPageComponent } from './world-page/world-page.component';
 import { HomeLayoutComponent } from './home-layout.component';
-import { MapsLayoutComponent } from './maps-page/maps-layout.component';
+import { MapsLayoutComponent } from './maps-layout.component';
 
 @NgModule({
   declarations: [

@@ -6,7 +6,7 @@ import { MapCardModel } from "./mapCard_list.model";
 @Component({
     selector: 'wf-maps-layout',
     templateUrl: 'maps-layout.component.html',
-    styleUrls: ['maps.component.css']
+    styleUrls: ['maps-layout.component.css']
 })
 
 export class MapsLayoutComponent
