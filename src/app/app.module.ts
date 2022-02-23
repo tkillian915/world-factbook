@@ -18,6 +18,7 @@ import { HomeLayoutComponent } from './home-layout.component';
 import { MapsLayoutComponent } from './maps-layout.component';
 import { LearnMoreComponent } from './learn-more/learn-more.component';
 import { JobsComponent } from './jobs/jobs.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { JobsComponent } from './jobs/jobs.component';
     HomeLayoutComponent,
     MapsLayoutComponent,
     LearnMoreComponent,
-    JobsComponent
+    JobsComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
