@@ -1,1 +1,11 @@
-<p>user-info works!</p>
+<p *ngIf="myInfo == undefined">Failed fetching user data</p>
+<div *ngIf="myInfo != undefined" class = "container-fluid bg-primary">
+    <div class = "row">
+        <div class = "col-3">
+            User: {{myInfo.FirstName}} {{myInfo.LastName}}
+        </div>
+        <div class = "col-6">
+            <a href ={{myInfo.GitHub}} class = "link"> GitHub: {{myInfo.GitHub}}</a>
+        </div>
+    </div>
+</div>
