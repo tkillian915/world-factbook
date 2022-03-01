@@ -1,0 +1,14 @@
+Main Features:
+
+-Added UserInfo to project
+-Created four files to do so
+	-user-info.component.css
+	-user-info.component.ts
+	-user-info.component.html
+	-user-info.model.ts
+
+-Minor CSS styling for user info to make it presentable
+
+Bonus Features:
+
+Highlights info when hovered over; mix ID visible when hovered over, not otherwise
