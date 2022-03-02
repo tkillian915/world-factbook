@@ -11,7 +11,9 @@ export class UserInfoComponent implements OnInit {
 
   myInfo: UserInfo | undefined;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { 
+    
+  }
 
   ngOnInit(): void {
     console.log("Sending request to server");
