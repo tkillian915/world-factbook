@@ -25,18 +25,16 @@ export class HomeLayoutComponent implements OnInit
       console.log(geoCard);
       this.geoCards.push(geoCard);
     }
-
-    for (var infoCard of infoCard_list)
-    {
-      console.log(infoCard);
-      this.infoCards.push(infoCard);
-    }
   }
 
   ngOnInit(): void {
     this.factbookService.getInfoCards().subscribe((data: infoCardModel []) => {
       console.log("Fetching info cards");
-      console.log(data);
+      for (var infoCard of data)
+      {
+        console.log(infoCard);
+        this.infoCards.push(infoCard);
+      }
     });
   }
 }
