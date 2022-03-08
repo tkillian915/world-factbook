@@ -20,11 +20,7 @@ export class HomeLayoutComponent implements OnInit
 
   constructor (private factbookService: FactbookService)
   {
-    for (var geoCard of geoCard_list)
-    {
-      console.log(geoCard);
-      this.geoCards.push(geoCard);
-    }
+    
   }
 
   ngOnInit(): void {
