@@ -3,6 +3,7 @@ import { geoCardModel } from "./geo-cards/geoCard_list.model";
 import { infoCardModel } from "./info-cards/infoCard_list.model";
 import { geoCard_list } from "./geo-cards/geoCard_list";
 import { infoCard_list } from "./info-cards/infoCard_list";
+import { FactbookService } from "./factbook.service";
 
 
 @Component({
@@ -17,7 +18,7 @@ export class HomeLayoutComponent implements OnInit
   geoCards: geoCardModel [] = [];
   infoCards: infoCardModel [] = [];
 
-  constructor ()
+  constructor (private factbookService: FactbookService)
   {
     for (var geoCard of geoCard_list)
     {
@@ -33,6 +34,9 @@ export class HomeLayoutComponent implements OnInit
   }
 
   ngOnInit(): void {
-      throw new Error("Method not implemented.");
+    this.factbookService.getInfoCards().subscribe((data: infoCardModel []) => {
+      console.log("Fetching info cards");
+      console.log(data);
+    });
   }
 }
