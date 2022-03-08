@@ -14,7 +14,7 @@ import { FactbookService } from "./factbook.service";
 
 export class HomeLayoutComponent implements OnInit
 {
-    title = 'world-factbook';
+  title = 'world-factbook';
   geoCards: geoCardModel [] = [];
   infoCards: infoCardModel [] = [];
 
@@ -34,6 +34,15 @@ export class HomeLayoutComponent implements OnInit
       {
         console.log(infoCard);
         this.infoCards.push(infoCard);
+      }
+    });
+
+    this.factbookService.getGeoCards().subscribe((data: geoCardModel []) => {
+      console.log("Fetching geo cards");
+      for (var geoCard of data)
+      {
+        console.log(geoCard);
+        this.geoCards.push(geoCard);
       }
     });
   }
