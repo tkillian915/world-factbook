@@ -13,7 +13,7 @@ export class FactbookService
 
     constructor(private http: HttpClient) 
     {
-
+        
     }
 
     public getInfoCards()

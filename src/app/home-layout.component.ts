@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { geoCardModel } from "./geo-cards/geoCard_list.model";
 import { infoCardModel } from "./info-cards/infoCard_list.model";
 import { geoCard_list } from "./geo-cards/geoCard_list";
@@ -11,7 +11,7 @@ import { infoCard_list } from "./info-cards/infoCard_list";
     styleUrls: ['home-layout.component.css']
 })
 
-export class HomeLayoutComponent
+export class HomeLayoutComponent implements OnInit
 {
     title = 'world-factbook';
   geoCards: geoCardModel [] = [];
@@ -30,5 +30,9 @@ export class HomeLayoutComponent
       console.log(infoCard);
       this.infoCards.push(infoCard);
     }
+  }
+
+  ngOnInit(): void {
+      throw new Error("Method not implemented.");
   }
 }
