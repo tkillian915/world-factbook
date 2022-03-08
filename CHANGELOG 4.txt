@@ -1,0 +1,15 @@
+Main Features:
+
+- Added info cards to database
+- Added back-end service support to home-layout.component.ts for info cards
+	- Created factbook.service.ts
+	- Info cards display from database
+		- 2 cards, each have content/img/title
+
+Bonus Features:
+
+- Added geo cards to database
+- Added back-end service support to home-layout.component.ts for geo cards
+	- Get method in factbook.service.ts
+	- Geo cards display from database
+		- 2 cards, each have img/title
