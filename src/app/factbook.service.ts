@@ -17,11 +17,13 @@ export class FactbookService
     public getInfoCards()
     {
         // return this.http.get<infoCardModel[]>(this.baseUrl + this.infoCardEndpoint);\
-        return this.db.list<infoCardModel>("infoCards").valueChanges();
+        return this.db.list<infoCardModel>("info-cards").valueChanges();
     }
 
     public getGeoCards()
     {
         // return this.http.get<geoCardModel[]>(this.baseUrl + this.geoCardEndpoint);
+        return this.db.list<geoCardModel>("geo-cards").valueChanges();
+
     }
 }
