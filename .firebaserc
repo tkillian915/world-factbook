@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "world-factbook-17ada"
+  },
+  "targets": {
+    "world-factbook-17ada": {
+      "hosting": {
+        "world-factbook": [
+          "world-factbook-17ada"
+        ]
+      }
+    }
   }
 }

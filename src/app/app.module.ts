@@ -19,7 +19,10 @@ import { MapsLayoutComponent } from './maps-layout.component';
 import { LearnMoreComponent } from './learn-more/learn-more.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { UserInfoComponent } from './user-info/user-info.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database'
 
 @NgModule({
   declarations: [
@@ -44,7 +47,9 @@ import { HttpClientModule } from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
   ],
   providers: [],
   bootstrap: [AppComponent]
