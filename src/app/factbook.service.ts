@@ -1,7 +1,7 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { geoCardModel } from "./geo-cards/geoCard_list.model";
 import { infoCardModel } from "./info-cards/infoCard_list.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 @Injectable({
     providedIn: 'root'
@@ -9,22 +9,19 @@ import { infoCardModel } from "./info-cards/infoCard_list.model";
 
 export class FactbookService 
 {
-    private baseUrl: string = "https://world-factbook-17ada-default-rtdb.firebaseio.com/";
-    private infoCardEndpoint: string = "info-cards.json";
-    private geoCardEndpoint: string = "geo-cards.json";
-
-    constructor(private http: HttpClient) 
+    constructor(private db: AngularFireDatabase) 
     {
 
     }
 
     public getInfoCards()
     {
-        return this.http.get<infoCardModel[]>(this.baseUrl + this.infoCardEndpoint);
+        // return this.http.get<infoCardModel[]>(this.baseUrl + this.infoCardEndpoint);\
+        return this.db.list<infoCardModel>("infoCards").valueChanges();
     }
 
     public getGeoCards()
     {
-        return this.http.get<geoCardModel[]>(this.baseUrl + this.geoCardEndpoint);
+        // return this.http.get<geoCardModel[]>(this.baseUrl + this.geoCardEndpoint);
     }
 }
