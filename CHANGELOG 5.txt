@@ -1,0 +1,8 @@
+Main Features:
+
+- Set up web app for world-factbook and built
+	- Added Firebase DB support in background in VS code
+
+- Deployed as web app
+	- Accessible via link on internet outside of virtual machine
+	- https://world-factbook-17ada.web.app/
