@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FactbookService } from '../factbook.service';
 import { infoCardModel } from '../info-cards/infoCard_list.model';
 
 @Component({
@@ -8,7 +9,7 @@ import { infoCardModel } from '../info-cards/infoCard_list.model';
 })
 export class AddCardComponent implements OnInit {
 
-  constructor() { }
+  constructor(public fs : FactbookService) { }
 
   ngOnInit(): void 
   {
@@ -19,6 +20,7 @@ export class AddCardComponent implements OnInit {
   {
     console.log("You clicked add card");
     console.log(newCard);
+    this.fs.addCard(newCard);
   }
 
 }

@@ -26,4 +26,9 @@ export class FactbookService
         return this.db.list<geoCardModel>("geo-cards").valueChanges();
 
     }
+
+    public addCard(newCard : infoCardModel)
+    {
+        this.db.list<infoCardModel>('cards').push(newCard)
+    }
 }
