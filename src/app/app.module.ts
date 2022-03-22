@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HeaderComponent } from 'src/app/header/header.component';
-
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footercomponent';
 import { GeoCardComponent } from './geo-cards/geoCard.component';
@@ -25,6 +24,7 @@ import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddCardComponent } from './add-card/add-card.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -52,7 +52,8 @@ import { AddCardComponent } from './add-card/add-card.component';
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { infoCardModel } from '../info-cards/infoCard_list.model';
 
 @Component({
   selector: 'wf-add-card',
@@ -9,7 +10,15 @@ export class AddCardComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void 
+  {
+
+  }
+
+  addCard(newCard:infoCardModel)
+  {
+    console.log("You clicked add card");
+    console.log(newCard);
   }
 
 }
