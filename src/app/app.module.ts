@@ -24,6 +24,7 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddCardComponent } from './add-card/add-card.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     MapsLayoutComponent,
     LearnMoreComponent,
     JobsComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddCardComponent
   ],
   imports: [
     BrowserModule,

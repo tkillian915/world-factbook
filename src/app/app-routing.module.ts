@@ -7,6 +7,7 @@ import { AboutComponent } from './about-page/about.component';
 import { ReferencesComponent } from './references/references.component';
 import { WorldPageComponent } from './world-page/world-page.component';
 import { AfricaComponent } from './africa-page/africa.countries.component';
+import { AddCardComponent } from './add-card/add-card.component';
 
 const routes:Routes = 
 [
@@ -17,6 +18,8 @@ const routes:Routes =
   {path: 'world', component: WorldPageComponent},
   {path: 'africa', component: AfricaComponent},
   {path: 'home', component: HomeLayoutComponent},
+  {path: 'admin', component: AddCardComponent},
+
 ];
 
 @NgModule({
