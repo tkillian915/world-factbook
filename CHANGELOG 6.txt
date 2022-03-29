@@ -1,0 +1,14 @@
+Main Features:
+
+- Added backend admin support to add 'geo-cards' to website via form
+	- Used existing service component
+	- Form allows for adding of card with the following information:
+		- content
+		- image
+		- title
+	- New cards add to database when created
+		- Example ('test') currently visible in database
+
+- Rebuilt and redeployed as web app
+	- Accessible via link on internet outside of virtual machine
+	- https://world-factbook-17ada.web.app/
