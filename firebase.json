@@ -1,5 +1,6 @@
 {
-  "hosting": {
+  "hosting": 
+  {
     "public": "dist/world-factbook",
     "ignore": [
       "firebase.json",
