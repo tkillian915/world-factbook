@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'wf-authentication',
@@ -12,9 +13,10 @@ export class AuthenticationComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSubmit(data:any)
+  onSubmit(data:NgForm)
   {
     console.log("Button clicked");
     console.log(data);
+    data.reset();
   }
 }
