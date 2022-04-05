@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { AuthenticationService } from './authentication.service';
 
 @Component({
   selector: 'wf-authentication',
@@ -8,7 +9,7 @@ import { NgForm } from '@angular/forms';
 })
 export class AuthenticationComponent implements OnInit {
 
-  constructor() { }
+  constructor(private auth:AuthenticationService) { }
 
   ngOnInit(): void {
   }
@@ -16,7 +17,17 @@ export class AuthenticationComponent implements OnInit {
   onSubmit(data:NgForm)
   {
     console.log("Button clicked");
-    console.log(data);
+    console.log(data.value);
     data.reset();
+
+    this.auth.signUp(data.value.email, data.value.password).subscribe(
+      data => {
+        console.log(data);
+      },
+
+      error => {
+        console.log(error);
+      }
+    )
   }
 }
