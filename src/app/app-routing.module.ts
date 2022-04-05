@@ -8,6 +8,7 @@ import { ReferencesComponent } from './references/references.component';
 import { WorldPageComponent } from './world-page/world-page.component';
 import { AfricaComponent } from './africa-page/africa.countries.component';
 import { AddCardComponent } from './add-card/add-card.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = 
 [
@@ -19,6 +20,7 @@ const routes:Routes =
   {path: 'africa', component: AfricaComponent},
   {path: 'home', component: HomeLayoutComponent},
   {path: 'admin', component: AddCardComponent},
+  {path: 'auth', component: AuthenticationComponent},
 
 ];
 
