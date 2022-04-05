@@ -12,4 +12,9 @@ export class AuthenticationComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSubmit(data:any)
+  {
+    console.log("Button clicked");
+    console.log(data);
+  }
 }

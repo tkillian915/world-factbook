@@ -1,15 +1,34 @@
 <div class = "container">
-    <div class="row">
+    <div class="row justify-content-center">
         <div class="col-6">
-            <form #authForm = "ngForm">
+            <form #authForm = "ngForm" (ngSubmit)="onSubmit(authForm)">
+
                 <div class="input-group">
-                    <span calss = "input-group-text">
+                    <span class = "input-group-text">
                         Email
                     </span>
                     <input type="text" class = "form-control"
                     placeholder = "Email"
                     required email>
                 </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Password
+                    </span>
+                    <input type="text" class = "form-control"
+                    placeholder = "Password"
+                    required password minlength="8">
+                </div>
+
+                <button class="btn btn-dark" type = "submit" [disabled]="!authForm.valid">
+                    Login
+                </button>
+
+                <button class="btn btn-dark" type = "submit" [disabled]="!authForm.valid">
+                    Sign up
+                </button>
+
             </form>
         </div>
     </div>
