@@ -25,6 +25,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddCardComponent } from './add-card/add-card.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { FormsModule } from '@angular/forms';
     LearnMoreComponent,
     JobsComponent,
     UserInfoComponent,
-    AddCardComponent
+    AddCardComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
