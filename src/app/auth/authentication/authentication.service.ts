@@ -11,7 +11,7 @@ import { environment } from "src/environments/environment";
 export class AuthenticationService
 {
     baseUrl: string = "https://identitytoolkit.googleapis.com/v1/accounts";
-    signUpEndpoint : string = "signUp";
+    signUpEndpoint : string = "signupNewUser";
 
     public constructor(private http:HttpClient)
     {
