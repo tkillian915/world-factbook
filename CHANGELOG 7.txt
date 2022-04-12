@@ -1,0 +1,7 @@
+Main Features:
+
+- Added authentication to backend
+	- created authentication service files
+	- rebuilt and redeployed website
+
+- Added two users to authentication backend
