@@ -29,5 +29,7 @@ export class AuthenticationComponent implements OnInit {
         console.log(error);
       }
     )
+
+    data.reset();
   }
 }
